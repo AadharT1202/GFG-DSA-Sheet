@@ -1,7 +1,10 @@
 #include<iostream>
 #include<vector>
 using namespace std;
-
+/*
+A Simple Solution is to first sort the array. After sorting, exclude the first element, swap the remaining elements in pairs. (i.e. keep arr[0] as it is, swap arr[1] and arr[2], swap arr[3] and arr[4], and so on). 
+Time complexity: O(N log N) since we need to sort the array first.
+*/
 void zigzagSort(vector<int> &arr, int n)
 {
     for(int i=0; i<n-1; i++)
