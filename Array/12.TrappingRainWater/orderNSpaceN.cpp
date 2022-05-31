@@ -1,7 +1,8 @@
 #include<iostream>
 #include<vector>
 using namespace std;
- 
+//In this approach we are calculating left max and right max prior using single traversal
+//space used is increased but time complexity is considerably decreased.
 int waterCollected(vector<int> arr, int n)
 {
     int ans=0;
