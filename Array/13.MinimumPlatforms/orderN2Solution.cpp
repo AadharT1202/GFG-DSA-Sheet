@@ -21,8 +21,8 @@ int findPlatform(int arr[], int dep[], int n)
  
 int main()
 {
-    int arr[] = { 9775, 494, 252, 1680 };
-    int dep[] = { 2052, 2254, 1395, 2130 };
+    int arr[] = { 900, 940, 950, 1100, 1500, 1800 };
+    int dep[] = { 910, 1200, 1120, 1130, 1900, 2000 };
     int n = sizeof(arr) / sizeof(arr[0]);
     cout << findPlatform(arr, dep, n) << endl;
     return 0;
