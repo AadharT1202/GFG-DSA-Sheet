@@ -18,6 +18,7 @@ int partition (int arr[], int low, int high)
     swap(arr[i],arr[high]);
     return i;
 }
+
 void quickSort(int arr[], int low, int high)
 {
     if(low < high){
@@ -26,8 +27,6 @@ void quickSort(int arr[], int low, int high)
         quickSort(arr,p+1,high);
     }
 }
-
-
 
 int main()
 {

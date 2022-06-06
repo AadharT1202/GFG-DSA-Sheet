@@ -1,7 +1,7 @@
 #include<iostream>
 #include<vector>
 using namespace std;
-
+ 
 int waterCollected(vector<int> arr, int n)
 {
     int ans=0;
