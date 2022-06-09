@@ -23,7 +23,7 @@ int findMin(int arr[], int n)
 
 int binarySearch(int arr[], int left, int right, int x)
 {
-    if(left<=right)
+    while(left<=right)
     {
         int mid = (left+right)/2;
         if(arr[mid] == x)
